@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="/normalize.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <style>
+    header {
+      text-align: center;
+      background: url('Comput.jpg');
+      background-size: cover;
+      color: white;
+    }
+
+    main{
+      background: url('tech-gradient.jpg');
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 2px solid #333;
+      border-radius: 20px;
+      height: 140px;
+      width: 140px
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    
+    article{
+     max-width: 500px;
+     padding: 20px; 
+     margin: 0 auto;
+    }
+
+    button{
+      cursor: pointer;
+    }
+    
+    @media (max-width: 500px) {
+      body{
+        background: red;
+      }
+      
+      h1{
+        font-size: 36px;
+        }
+      
+        li{
+        display: block;
+        padding: 5px;
+        }
+     }
+    </style>
+  </head>
+  <body>
+  <header>
+      <img src="Elikem.jpg">
+      <h1>Jeff's Blog</h1>
+      <ul>
+        <li><a href="index.html">Best Quote</a></li>
+        <li><a href="life.html">Life Quote</a></li>
+        <li><a href="success.html">Success Quote</a></li>
+      </ul>
+    </header>
+    <main>
+      <article>
+        <h2>VHS umami pop-up trust fund</h2>
+        <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof   party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+       <button class="like">Like</button>
+      </article>
+      <article>
+        <h2>Sartorial synth Echo Park, roof party</h2>
+        <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+        <button class="like">Like</button>
+      </article>
+      <article>
+        <h2>Forage food truck keytar master cleanse</h2>
+        <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+        <button class="like">Like</button>
+      </article>
+    </main>
+    <script src="like.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+$("button").on("click", function(){alert("Thanks for liking our quote, we hope to give more in future")})
